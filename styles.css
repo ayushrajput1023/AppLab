@@ -1,0 +1,528 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+html{
+  width:100%;
+  overflow-x:hidden;
+}
+.bodyy{
+  margin: 4% 8%;
+}
+/**------------------nev---------------------*/
+.nev{
+  margin-bottom: 10px;
+}
+.nevh3{
+  font-weight: bold;
+}
+.nevspan{
+  color: orange;
+}
+.nevitem{
+  margin-right: 10px;
+}
+.nevbtn{
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 30px;
+}
+
+/**------------------top---------------------*/
+.top{
+}
+.topleft{
+  text-align: left;
+  width: 90%;
+  margin-top: 35%;
+  padding-left: 20%;
+}
+.topleft h1{
+  font-weight: bold;
+}
+.topright{
+  padding-right: 25%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.topbtn{
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 15px;
+}
+/**------------------features---------------------*/
+.features{
+  margin-top: 95px;
+  margin-bottom: 115px;
+}
+.company{
+  margin-bottom: 130px;
+}
+.featuresright{
+  text-align: left;
+  width: 70%;
+}
+.featuresunderright{
+  text-align: left;
+  width: 50%;
+  text-align: justify;
+}
+.featurelogo{
+  padding-top: 35px;
+}
+.logoes{
+  width: 15%;
+  padding-right: 40px;
+}
+.featurephone{
+  transform: rotate(-18deg);
+  padding-right: 30px;
+  padding-top: 90px;
+}
+.redd{
+  color: red;
+}
+.bluee{
+  color: blue;
+}
+.greenn{
+  color: green;
+}
+
+/**------------------jackpots---------------------*/
+.jackpots{
+  margin-top: 10px;
+  margin-bottom: 90px;
+}
+.jackpothead{
+  text-align: left;
+  width: 90%;
+  font-weight: bolder;
+}
+.jackpotp{
+  text-align: left;
+  width: 90%;
+  padding-top: 40px;
+}
+.line{
+  border-left: 2px solid gray;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+/**------------------verticle---------------------*/
+.verticle{
+  margin-top: 10px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+.verticlediv{
+  width: 70%;
+}
+.verticlelogo{
+  font-size: 60px;
+}
+/**------------------Designed---------------------*/
+.Designed{
+  margin-top: 30px;
+  margin-bottom: 65px;
+}
+.Designeddiv{
+  text-align: left;
+  width: 70%;
+  margin: auto;
+}
+.designbtn{
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.designedimg{
+  width: 120%;
+  padding-right: 30px;
+}
+/**------------------choose---------------------*/
+.choose{
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+.belowchoose{
+  margin-top: 110px;
+  margin-bottom: 90px;
+}
+.belowchooseh{
+  width: 40%;
+  margin: auto;
+}
+.belowchoosep{
+  width: 53%;
+  margin: auto;
+}
+.grd{
+  margin-top: 10px;
+  margin-bottom: 60px;
+  width: 70%;
+}
+.chooselogo{
+  font-size: 50px;
+}
+/**------------------Ultimate---------------------*/
+.Ultimatediv{
+  text-align: left;
+  width: 70%;
+  margin-bottom: 50px;
+}
+.ultimategrd{
+  text-align: left;
+  width: 90%;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.ultimatebut{
+  text-align: left;
+}
+.ultimate2{
+  transform: rotate(10deg);
+  padding-top: 120px;
+}
+/**------------------cardd---------------------*/
+.cardd{
+  margin-top: 130px;
+  margin-bottom: 90px;
+}
+.cardtoph{
+  width: 60%;
+  margin: auto;
+}
+.cardtopp{
+  width: 60%;
+  margin: auto;
+}
+.cardbtn{
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.cardbutn{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.cardlastp{
+  color: blue;
+}
+.bagcolor{
+  background-color: #f5efef;
+}
+/**------------------product---------------------*/
+.product{
+  margin-top: 140px;
+  margin-bottom: 80px;
+}
+.productdata{
+  text-align: left;
+  width: 60%;
+  padding-left: 30px;
+}
+.productimg{
+  background-image: url("Images/world.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+}
+.productstar{
+  color: gold;
+}
+.productlastimg{
+  float: left;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.lastimg{
+  width: 60px;
+}
+.productlastdata{
+  text-align: left;
+  float: left;
+}
+.direction{
+  font-size: 30px;
+}
+/**------------------question---------------------*/
+.question{
+  margin-top: 150px;
+  margin-bottom: 90px;
+}
+.questionp{
+  width: 45%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.jumbu{
+  background-color: #e4e3e3;
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  padding-top: 10px;
+}
+.headjumbo{
+  padding: 20px 30px;
+  margin-bottom: 10px;
+}
+.padleft{
+  padding-left: 20px;
+}
+.addbutn{
+  padding-left: 16px;
+}
+
+/**------------------Download---------------------*/
+.download{
+  margin: 4% 0;
+}
+.downloaddiv{
+  text-align: left;
+  padding-left: 90px;
+  padding-top: 30px;
+}
+.downloadimg{
+  width: 70%;
+}
+.buttonlogo{
+  width: 10%;
+}
+/**------------------footer---------------------*/
+.footer{
+  background-color: black;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+.footerlink{
+  color: white;
+}
+.footerlink:hover{
+  color: white;
+}
+.footernev{
+  margin-top: 40px;
+}
+.logofooter{
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+/**-----------------------------------------------------------------------------------------------------*/
+/**-----------------------------------------------------------------------------------------------------*/
+
+@media(max-width:1028px)
+{
+  .customicon{
+    width: 50px;
+  }
+
+  h1{
+    font-size: 90px;
+  }
+  h5{
+    font-size: 55px;
+  }
+  p{
+    font-size: 55px;
+  }
+  b{
+    font-size: 45px;
+  }
+
+  /**------------------nev---------------------*/
+  .nevh3{
+    font-size: 70px;
+  }
+  .nevitem{
+    font-size: 50px;
+    text-align: center;
+  }
+  .nevbtn{
+    font-size: 35px;
+  }
+
+  /**------------------top---------------------*/
+  .topleft{
+    text-align: center;
+    width: 90%;
+    margin-top: 15%;
+    padding-left: 0;
+  }
+  .topbtnsize{
+    font-size: 40px;
+  }
+  .image{
+    width: 120%;
+  }
+
+  /**------------------features---------------------*/
+  .logoes{
+    width: 20%;
+  }
+  .featurephone{
+    transform: rotate(0deg);
+    width: 100%;
+    padding-right: 0;
+    padding-top: 40px;
+  }
+  .logoes{
+    width: 20%;
+    padding-right: 20px;
+  }
+  .featuresright{
+    width: 100%;
+  }
+  .featuresunderright{
+    width: 100%;
+  }
+  .featurelogo{
+    font-size: 120px;
+  }
+  /**------------------verticle--------------------*/
+  .verticlediv{
+    width: 100%;
+  }
+  .verticlelogo{
+    font-size: 120px;
+  }
+  /**------------------designed---------------------*/
+  .designedimg{
+    width: 105%;
+    padding-right: 0;
+  }
+  .Designeddiv{
+    padding-top: 30px;
+    text-align: left;
+    width: 100%;
+    margin: auto;
+  }
+
+ /**--------------------choose------------------------*/
+ .belowchooseh{
+   width: 100%;
+ }
+ .belowchoosep{
+   width: 100%;
+ }
+ .choosemid{
+   text-align: center;
+   margin-left: 5%;
+ }
+ .chooselogo{
+   font-size: 120px;
+ }
+ .grd{
+   width: 100%;
+ }
+ /**------------------Ultimate---------------------*/
+ .Ultimatediv{
+   width: 100%;
+ }
+ .ultimate2{
+   transform: rotate(0deg);
+   width: 90%;
+   padding-top: 120px;
+ }
+ /**------------------cardd---------------------*/
+ .cardtoph{
+   width: 100%;
+ }
+ .cardtopp{
+   width: 100%;
+ }
+ .cardmobile{
+   margin-left: 10.5rem;
+ }
+ .cardpad{
+   margin-bottom: 40px;
+ }
+.cardmobile h1{
+  font-size: 70px;
+}
+.cardmobile p{
+  font-size: 32px;
+}
+ /**------------------product---------------------*/
+ .productimg{
+  width: 90%;
+  height: 250px;
+ }
+ .productdata{
+   width: 90%;
+ }
+ .productstar{
+   font-size: 100px;
+ }
+ .ceo{
+   font-size: 38px;
+ }
+ .lastimg{
+   width: 130px;
+ }
+ .direction{
+   font-size: 80px;
+ }
+ /**------------------question---------------------*/
+ .questionp{
+   width: 95%;
+ }
+ .jumbu{
+   width: 90%;
+ }
+ .addbutn{
+   padding-left: 0;
+   padding-top: 20px;
+ }
+ .addbutn1{
+   padding-top: 20px;
+ }
+ .question h5{
+   font-size: 40px;
+ }
+ .lorem{
+   font-size: 40px;
+ }
+ .padleft{
+   font-size: 40px;
+ }
+ /**------------------Download---------------------*/
+ .download{
+   margin: 0 0;
+ }
+ .downloaddiv{
+   text-align: center;
+   padding-left: 0;
+   padding-top: 30px;
+   margin-bottom: 30px;
+ }
+}
